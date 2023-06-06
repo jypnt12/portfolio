@@ -44,7 +44,7 @@ export default function Home() {
               {" "} 
               J<span className="text-white ">yp</span>nt
       </h1>
-      <div className=" px-6 text-3xl flex justify-start gap-8 py-3 text-teal-900 dark:text-gray-400 ">
+      <div className=" px-6 text-3xl flex justify-start gap-8 py-3 text-gray-400 ">
                 <a href="https://wwww.facebook.com/jypnt" target="_blank"
           rel="noopener noreferrer">
                   <AiFillFacebook className="cursor-pointer hover:bg-gray-100 hover:text-gray-950" />
@@ -59,7 +59,7 @@ export default function Home() {
               </div>
         <div className="hidden lg:visible right-0 lg:flex  items-end justify-end from-white via-white dark:from-black dark:via-black static h-auto w-auto bg-none">
           {/* <BsFillMoonStarsFill className="cursor-pointer text-2xl mb-2" /> */}
-          <Link href="mailto:jaypante12@gmail.com" className="border-solid border-2   px-4 py-1 rounded-md text-base hover:text-black hover:dark:bg-slate-100">contact me</Link>
+          <Link href="mailto:jaypante12@gmail.com" className="border-solid border-2   px-4 py-1 rounded-md text-base hover:text-black hover:bg-slate-100">contact me</Link>
         </div>
     </div>
     {/* <Sphere/> */}
@@ -97,7 +97,7 @@ export default function Home() {
         {projects.map(project =>(
           <a
           href={`${project.link}`}
-          className="group rounded-lg  border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-gray-800"
+          className="group rounded-lg  border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:dark:border-neutral-700 hover:bg-gray-800"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -129,9 +129,9 @@ export default function Home() {
       </div>
       <footer className="text-center pb-16 lg:pb-0 lg:mt-0 mt-[-100px]">
         <button onClick={scrollToTop}>
-          <h1 className="text-4xl font-Dirgahayu text-teal-900 dark:text-gray-500">
+          <h1 className="text-4xl font-Dirgahayu  text-gray-500">
             {" "}
-            J<span className="text-teal-700 dark:text-gray-100">yp</span>nt
+            J<span className="text-gray-100">yp</span>nt
           </h1>
           </button>
         </footer>

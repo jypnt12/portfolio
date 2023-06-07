@@ -59,7 +59,7 @@ export default function Home() {
               </div>
         <div className="hidden lg:visible right-0 lg:flex  items-end justify-end from-white via-white dark:from-black dark:via-black static h-auto w-auto bg-none">
           {/* <BsFillMoonStarsFill className="cursor-pointer text-2xl mb-2" /> */}
-          <Link href="mailto:jaypante12@gmail.com" className="border-solid border-2   px-4 py-1 rounded-md text-base hover:text-black hover:bg-slate-100">contact me</Link>
+          <Link target="_blank" rel="nofollow" href="mailto:jaypante12@gmail.com" className="border-solid border-2   px-4 py-1 rounded-md text-base hover:text-black hover:bg-slate-100">contact me</Link>
         </div>
     </div>
     {/* <Sphere/> */}

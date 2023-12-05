@@ -69,7 +69,7 @@ const projects = [
           },
         ],
         image: ignite,
-        link: "https://github.com/",
+        link: "https://ignite-six-rouge.vercel.app/",
       },
       {
         name: "Personal blog",

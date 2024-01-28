@@ -71,69 +71,69 @@ const projects = [
         image: ignite,
         link: "https://ignite-six-rouge.vercel.app/",
       },
-      {
-        name: "Personal blog",
-        description:
-          "Personal website, using Next.js. ",
-        tags: [
-          {
-            name: "next",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "tailwind",
-            color: "green-text-gradient",
-          },
-          {
-            name: "tutorial",
-            color: "pink-text-gradient",
-          },
-        ],
-        image: blog,
-        link: "https://nextjs-blog-lime-nine.vercel.app/",
-      },
-      {
-          name: "Music player",
-          description:
-            "Web-based music player.", 
-          tags: [
-            {
-              name: "react",
-              color: "blue-text-gradient",
-            },
-            {
-              name: "scss",
-              color: "green-text-gradient",
-            },
-            {
-              name: "html",
-              color: "pink-text-gradient",
-            },
-          ],
-          image: music,
-          link: "https://genuine-muffin-c1e275.netlify.app/",
-        },
-        {
-          name: "Student portal",
-          description:
-            "Student portal for thesis project using react. ", 
-          tags: [
-            {
-              name: "react",
-              color: "blue-text-gradient",
-            },
-            {
-              name: "node",
-              color: "green-text-gradient",
-            },
-            {
-              name: "sql",
-              color: "pink-text-gradient",
-            },
-          ],
-          image: portal,
-          link: "#",
-        },
+      // {
+      //   name: "Personal blog",
+      //   description:
+      //     "Personal website, using Next.js. ",
+      //   tags: [
+      //     {
+      //       name: "next",
+      //       color: "blue-text-gradient",
+      //     },
+      //     {
+      //       name: "tailwind",
+      //       color: "green-text-gradient",
+      //     },
+      //     {
+      //       name: "tutorial",
+      //       color: "pink-text-gradient",
+      //     },
+      //   ],
+      //   image: blog,
+      //   link: "https://nextjs-blog-lime-nine.vercel.app/",
+      // },
+      // {
+      //     name: "Music player",
+      //     description:
+      //       "Web-based music player.", 
+      //     tags: [
+      //       {
+      //         name: "react",
+      //         color: "blue-text-gradient",
+      //       },
+      //       {
+      //         name: "scss",
+      //         color: "green-text-gradient",
+      //       },
+      //       {
+      //         name: "html",
+      //         color: "pink-text-gradient",
+      //       },
+      //     ],
+      //     image: music,
+      //     link: "https://genuine-muffin-c1e275.netlify.app/",
+      //   },
+        // {
+        //   name: "Student portal",
+        //   description:
+        //     "Student portal for thesis project using react. ", 
+        //   tags: [
+        //     {
+        //       name: "react",
+        //       color: "blue-text-gradient",
+        //     },
+        //     {
+        //       name: "node",
+        //       color: "green-text-gradient",
+        //     },
+        //     {
+        //       name: "sql",
+        //       color: "pink-text-gradient",
+        //     },
+        //   ],
+        //   image: portal,
+        //   link: "#",
+        // },
         
 ]
 
@@ -141,7 +141,7 @@ const accordionData = [
   {
     id:1,
     company:"Tsukiden Global Solutions Inc.",
-    details:"Build, test and maintain Zendesk support web application based on clients’ requirements.",
+    details:"Participated in the development, testing, and continuous maintenance of a dynamic Zendesk support web application using ReactJS, adhering closely to diverse client specifications.",
     website:"tsukiden.com.ph",
     tags: [
       {

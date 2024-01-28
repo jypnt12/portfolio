@@ -27,7 +27,7 @@ const Accordion = ({id, company, details, tags,website}) => {
                         className='overflow-hidden bg-gray-700 rounded-md'>
                         <div className='flex flex-col p-6 gap-6'>
                             {/* <p >{website}</p> */}
-                            <p className='text-sm md:text-base lg:w-3/4'>{details}</p>
+                            <p className='text-sm md:text-base'>{details}</p>
                            
                                 {/* <ul className='flex flex-row gap-4'>
                                     <li className='bg-gray-500  text-white px-4 py-1 rounded-full text-base'>dsfsdf</li>

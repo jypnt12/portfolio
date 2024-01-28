@@ -70,7 +70,7 @@ export default function Home() {
           <h1 className="text-5xl lg:text-9xl py-2  text-white-600 font-bold">
           JAY PANTE
           </h1>
-          <h2 className="lg:text-xl text-xs py-2 text-white-600 items-center whitespace-pre"><span className='hidden lg:inline '> SOFTWARE ENGINEER    | |    FRONT END    | | </span>   WEB DEVELOPER </h2>
+          {/* <h2 className="lg:text-xl text-xs py-2 text-white-600 items-center whitespace-pre"><span className='hidden lg:inline '> SOFTWARE ENGINEER    | |    FRONT END    | | </span>   WEB DEVELOPER </h2> */}
           
 
         </div>
